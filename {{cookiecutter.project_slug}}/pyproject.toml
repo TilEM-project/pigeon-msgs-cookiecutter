@@ -19,7 +19,7 @@ classifiers = [
 ]
 
 [project.entry-points."pigeon.msgs"]
-msgs = "{{ cookiecutter.project_slug }}:msgs"
+msgs = "{{ cookiecutter.project_slug }}:topics"
 
 [project.urls]
 Homepage = "{{ cookiecutter.github_repository }}"
