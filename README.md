@@ -4,7 +4,7 @@ This repository contains a template to simplify the process of defining messages
 To use this template, first install [Cookiecutter](https://www.cookiecutter.io/), then run,
 
 ```bash
-cookiecutter https://github.com/AllenInstitute/pigeon-msgs-cookiecutter
+cookiecutter https://github.com/TilEM-project/pigeon-msgs-cookiecutter
 ```
 
 and complete the prompts.

@@ -9,7 +9,6 @@ readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
   "pigeon-client",
-  "pydantic",
 ]
 classifiers = [
   "Intended Audience :: Developers",
@@ -25,3 +24,11 @@ msgs = "{{ cookiecutter.project_slug }}:topics"
 Homepage = "{{ cookiecutter.github_repository }}"
 Repository = "{{ cookiecutter.github_repository }}"
 Issues = "{{ cookiecutter.github_repository }}/issues"
+
+[project.optional-dependencies]
+test = [
+  "pytest",
+]
+dev = [
+  "bump-my-version",
+]

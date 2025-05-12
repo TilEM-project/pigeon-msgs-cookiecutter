@@ -1,10 +1,11 @@
 {
   "project_name": "Robot Messages",
+  "project_dir": "{{ cookiecutter.project_name.replace(' ', '_') }}",
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
   "pypi_name": "pigeon-{{ cookiecutter.project_slug.replace('_', '-') }}",
   "author_name": "Cameron Devine",
   "author_email": "cameron.devine@alleninstitute.org",
   "short_description": "Messages for the robot.",
-  "github_owner": "AllenInstitute",
-  "github_repository": "https://github.com/{{ cookiecutter.github_owner }}/{{ cookiecutter.project_slug }}"
+  "github_owner": "TilEM-project",
+  "github_repository": "https://github.com/{{ cookiecutter.github_owner }}/{{ cookiecutter.project_dir }}"
 }
